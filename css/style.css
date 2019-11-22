@@ -264,6 +264,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
+  width: 100px;
   /* color: #FF9000 !important; */
   color: #2F3C4F !important;
 }
@@ -1308,4 +1309,8 @@ input[type="text"] {
   opacity: 0;
 }
 
+#row-around{
+  justify-content: space-around;
+  display: flex;
+}
 /*# sourceMappingURL=style.css.map */
