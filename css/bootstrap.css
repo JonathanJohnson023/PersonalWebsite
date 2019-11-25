@@ -1364,6 +1364,11 @@ pre code {
     width: 33.33333%;
   }
 
+  .col-md-4.text-center{
+    display: flex;
+    place-content: center;
+  }
+
   .col-md-5 {
     width: 41.66667%;
   }
