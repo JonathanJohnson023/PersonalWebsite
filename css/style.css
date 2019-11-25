@@ -696,29 +696,31 @@ h1, h2, h3, h4, h5, h6, figure {
   background-color: #27ae60 !important;
 }
 
-.chart {
+.chart-img {
   width: 160px;
   height: 160px;
   margin: 0 auto 40px auto;
   position: relative;
   text-align: center;
 }
-.chart span {
+.chart-img span {
   position: absolute;
   top: 50%;
   left: 0;
   margin-top: -30px;
   width: 100%;
 }
-.chart span strong {
+.chart-img span strong {
   display: block;
 }
-.chart canvas {
+.chart-img canvas {
   position: absolute;
   left: 0;
   top: 0;
 }
-
+.old-chart-img{
+  width: 100%;
+}
 .work {
   background-size: cover;
   background-position: center center;
